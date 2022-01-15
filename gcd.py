@@ -1,0 +1,17 @@
+def get_gcd(m,n):
+    print("m",m, "n", n, "m%n", m%n)
+    if m%n==0:
+        return n
+
+    else:
+        return get_gcd(n,m%n)
+
+
+
+print(get_gcd(2,3))
+# print(get_gcd(5,10))
+# print(get_gcd(30,50))
+# print(get_gcd(8,6))
+# print(get_gcd(4,10))
+
+print(get_gcd(20,30))
