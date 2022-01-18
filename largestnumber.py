@@ -41,8 +41,16 @@
 #
 # squring_number(25)
 
-def cubing_number(n):
-    for i in range(1,n+1):
-        print("{} x {} x {} = {}".format(i,i,i,i*i*i))
+# def cubing_number(n):
+#     for i in range(1,n+1):
+#         print("{} x {} x {} = {}".format(i,i,i,i*i*i))
+#
+# cubing_number(25)
 
-cubing_number(25)
+def round_off(n,decimalplaces):
+    return round(n,decimalplaces)
+print(round_off(5.6875,2))
+print(round_off(3.3456,3))
+print(round_off(5.6875,4))
+print(round_off(5.6875,1))
+print(round_off(5.6875,0))
