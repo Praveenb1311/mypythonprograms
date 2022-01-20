@@ -47,10 +47,58 @@
 #
 # cubing_number(25)
 
-def round_off(n,decimalplaces):
-    return round(n,decimalplaces)
-print(round_off(5.6875,2))
-print(round_off(3.3456,3))
-print(round_off(5.6875,4))
-print(round_off(5.6875,1))
-print(round_off(5.6875,0))
+# def round_off(n,decimalplaces):
+#     return round(n,decimalplaces)
+# print(round_off(5.6875,2))
+# print(round_off(3.3456,3))
+# print(round_off(5.6875,4))
+# print(round_off(5.6875,1))
+# print(round_off(5.6875,0))
+
+list1 = [25.6356356,25.635634,25.345,25.3467,25.3489,25.6389]
+
+round_off_list = [round(i,2) for i in list1]
+print(round_off_list)
+
+# dict = {}
+# for item in round_off_list:
+#     if item in dict:
+#         dict[item] += 1
+#     else:
+#         dict[item] = 1
+#     # print(dict)
+# print(dict)
+#
+# import collections
+# output = collections.Counter(round_off_list)
+# print(output)
+
+# print(output.most_common(1))
+# print(output.most_common(2))
+
+dict = {}
+for item in round_off_list:
+    if item in dict:
+        dict[item] += 1
+    else:
+        dict[item] = 1
+    # print(dict)
+print(dict)
+
+values = list(dict.values())
+
+max_value = max(values)
+
+for key,value in dict.items():
+    if max_value == value:
+        print(key,":", value)
+        break
+
+
+a = 25.999999
+b = 25.0001
+
+import math
+
+print(math.floor(a))
+print(math.ceil(b))
