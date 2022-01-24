@@ -97,8 +97,11 @@ for key,value in dict.items():
 
 a = 25.999999
 b = 25.0001
-
+# a = float(input("enter the value of a : "))
+# b = float(input("enter the value of b : "))
 import math
 
-print(math.floor(a))
-print(math.ceil(b))
+print("floring value of {} = {} ".format(a, math.floor(a)))
+print("ceiling value of {} = {} ".format(b, math.ceil(b)))
+# print(math.ceil(b))
+
