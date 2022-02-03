@@ -7,3 +7,4 @@ amount = interest + p
 print(interest)
 print(amount)
 
+
