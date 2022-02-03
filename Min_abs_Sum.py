@@ -40,4 +40,9 @@ for z in range(100):
             if x*x + y*y == z*z:
                 print(x,y,z)
 
+triplets = ((x,y,z) for z in range(100) for y in range(1,z) for x in range(1,y) if x*x + y*y == z*z)
+# print(tuple(triplets))
+
+
+
 

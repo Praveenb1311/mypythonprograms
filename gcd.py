@@ -20,3 +20,4 @@ m = int(input("enter the value of m : "))
 n = int(input("enter the value of n : "))
 # print(get_gcd(m,n))
 print("gcd of {} and {} = {}".format(m, n, get_gcd(m,n)))
+
