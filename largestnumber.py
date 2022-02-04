@@ -28,7 +28,7 @@
 # multiplication_factor(12)
 # multiplication_factor(3)
 
-
+#
 # def squring_number():
 #     for i in range(1,11):
 #         print("{} x {} = {}".format(i,i,i*i))
