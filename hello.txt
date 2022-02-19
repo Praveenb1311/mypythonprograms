@@ -1,0 +1,10 @@
+
+I am appending to the existing file
+I am done with appending
+I am appending to the existing file
+I am done with appendingI am done with r+ mode
+I am appending to the existing file
+I am done with appending
+I am appending to the Praveen existing file
+I am done with appendingI am done with r+ mode
+I am done with r+ mode
