@@ -1,18 +1,40 @@
-# group of frds- located in a point - gather at a meeting - looking for adjustment for available seats
+# # group of frds- located in a point - gather at a meeting - looking for adjustment for available seats
+#
+# P = [2,3,1,5]
+# S = [4,2,5,8]
+#
+# total_persons = sum(P)
+# S.sort(reverse = True)
+# temp_sum = 0
+# count = 1
+# for s in S:
+#     temp_sum += s
+#     if temp_sum >= total_persons:
+#         break
+#     count += 1
+#
+# print(count)
 
-P = [2,3,1,5]
-S = [4,2,5,3]
 
+P = [2,3,1,10]
+S = [4,2,16,3]
 
-#group of faactories- number of produce polution in units - to find minimize fiter - one filter will reduce half of the polution
+total_persons = sum(P)
+print(total_persons)
+temp_sum = 0
+count = 1
+while(True):
+    max_seat = max(S)
+    temp_sum += max_seat
+    S.remove(max_seat)
+    if temp_sum >= total_persons:
+        break
+    elif temp_sum + min(S) >= total_persons:
+        count = count+1
+        temp_sum += min(S)
+        break
+    else:
+        count += 1
 
-
-F = [3,5,19,8]
-
-output = 3
-
-#19-2,  8-1,
-
-F = [35]
-O = 17
-
+print(count)
+# print(temp_sum)
