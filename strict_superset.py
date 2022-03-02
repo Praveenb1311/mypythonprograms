@@ -39,9 +39,13 @@ given_set({1,2,3,4}, {1,2,3,4})
 given_set({1,2,3}, {1,2,3,4})
 given_set({1,2,3,4}, {1,2,3})
 given_set({4,2,3}, {1,2,3,4})
+<<<<<<< HEAD
 given_set({1,2,3,4,5}, {4,2,1,3})
 
 ## principle diagonal element- secondary diagonal element
 
 1,2
 3,3
+=======
+given_set({1,2,3,4,5}, {4,2,1,3})
+>>>>>>> origin/main
