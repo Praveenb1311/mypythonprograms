@@ -1,8 +1,8 @@
-A = {1,2,3,4,5}
-B = {1,2,3}
-C = {1,2,4}
-D = {1,2,3,4,5}
-E ={4,5,6}
+# A = {1,2,3,4,5}
+# B = {1,2,3}
+# C = {1,2,4}
+# D = {1,2,3,4,5}
+# E ={4,5,6}
 
 #
 #
@@ -23,29 +23,38 @@ E ={4,5,6}
 
 
 
-
-def given_set(A,B):
-    if len(A - B) > 0:
-        print("A is strict_supeset of B")
-
-    elif len(A - B) == 0:
-        print("A is not strict_supeset of B")
-
-
-    elif len(B - A) > 0:
-        print("A is not strict_supeset of B")
-
-given_set({1,2,3,4}, {1,2,3,4})
-given_set({1,2,3}, {1,2,3,4})
-given_set({1,2,3,4}, {1,2,3})
-given_set({4,2,3}, {1,2,3,4})
-<<<<<<< HEAD
-given_set({1,2,3,4,5}, {4,2,1,3})
+#
+# def given_set(A,B):
+#     if len(A - B) > 0:
+#         print("A is strict_supeset of B")
+#
+#     elif len(A - B) == 0:
+#         print("A is not strict_supeset of B")
+#
+#
+#     elif len(B - A) > 0:
+#         print("A is not strict_supeset of B")
+#
+# given_set({1,2,3,4}, {1,2,3,4})
+# given_set({1,2,3}, {1,2,3,4})
+# given_set({1,2,3,4}, {1,2,3})
+# given_set({4,2,3}, {1,2,3,4})
+# <<<<<<< HEAD
+# given_set({1,2,3,4,5}, {4,2,1,3})
 
 ## principle diagonal element- secondary diagonal element
 
-1,2
-3,3
-=======
-given_set({1,2,3,4,5}, {4,2,1,3})
->>>>>>> origin/main
+A = [[1,2],[3,4]]
+B = [[1,2],[3,4]]
+
+
+
+set1 = [((A([0][0] * A([1][1]))-A([0][1] * A([1][0]))]
+
+print(set1)
+
+
+C = [[1,2],[3,4],[5,6]]
+D = [[1,2],[3,4],[5,6]]
+
+
