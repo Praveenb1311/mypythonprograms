@@ -32,3 +32,11 @@ print(reduce(lambda a, b: a if a > b else b, list1))   # function for maximum nu
 
 print("the maximum element of the l1 is: ", end = "")
 print(reduce(lambda a, b: a if a > b else b, l1))
+
+list2 = [0, 1, 2, 3, 5, 8, 13]
+
+result = filter(lambda x: x % 2 != 0, list2)
+print("odd numbers of the list : ", list(result))
+
+result = filter(lambda x: x % 2 == 0, list2)
+print("even numbers of the list: ", list( result))
