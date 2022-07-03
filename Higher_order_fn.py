@@ -36,7 +36,7 @@ print(reduce(lambda a, b: a if a > b else b, l1))
 list2 = [0, 1, 2, 3, 5, 8, 13]
 
 result = filter(lambda x: x % 2 != 0, list2)
-print("odd numbers of the list : ", list(result))
+print("odd numbers of the list2 : ", list(result))
 
 result = filter(lambda x: x % 2 == 0, list2)
-print("even numbers of the list: ", list( result))
+print("even numbers of the list2 : ", list( result))
