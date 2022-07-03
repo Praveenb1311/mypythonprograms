@@ -35,8 +35,18 @@ print(reduce(lambda a, b: a if a > b else b, l1))
 
 list2 = [0, 1, 2, 3, 5, 8, 13]
 
-result = filter(lambda x: x % 2 != 0, list2)
+result = filter(lambda x: x % 2 != 0, list2) #indentation: (iterator object)
 print("odd numbers of the list2 : ", list(result))
 
 result = filter(lambda x: x % 2 == 0, list2)
-print("even numbers of the list2 : ", list( result))
+# print("even numbers of the list2 : ", list(result))
+# print(list(result))
+
+# print("even numbers of the list2 : ", print(list(result)))
+# hello = print("huli")
+
+# print(hello)
+
+def print1(s):print(s)
+    # return s
+print(print1("hello"))
