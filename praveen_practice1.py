@@ -16,4 +16,11 @@ list1 = [11,6,35,8,13,95,18]
 # 6,8,11,13,18,35,95
 
 # merge_sort:
-1
+for i in range(len(list1)):
+    for j in range(i+1, len(list1)):
+        if list1[i] > list1[j]:
+            temp = list1[i]
+            list1[i] = list1[j]
+            list1[j] = temp
+print(list1)
+
