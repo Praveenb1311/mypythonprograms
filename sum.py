@@ -9,6 +9,7 @@ print(sum)
 str1 = "alphabet"
 str1 = "crunchi"
 str1 = "madam"
+# str1 = "madam"
 
 import collections
 
