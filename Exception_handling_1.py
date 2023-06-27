@@ -26,4 +26,4 @@ print("{}*{}={}".format(m,n,x))
 
 with open("hello.txt","w") as fp:
     fp.write("This is my fist time writing to a file")
-    fp.write("\n\nThis is my second time time writing to a fil
+    fp.write("\n\nThis is my second time time writing to a file")
