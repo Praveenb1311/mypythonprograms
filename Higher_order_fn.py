@@ -14,7 +14,7 @@
 # square = lambda y:y**10
 # print(square(2))
 
-
+#this line is added for check
 #import functools
 from functools import reduce
 list1 = [1,3,5,6,2]
