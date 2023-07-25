@@ -15,3 +15,6 @@ result = np.random.randint(1, 10, size=100000)
 print(calculate_inverse(result))
 
 large_array = np.random.randint(1, 100, size=10000)
+
+L = np.random.random(100)
+print(np.sum(L))
